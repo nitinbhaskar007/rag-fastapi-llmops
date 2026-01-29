@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic-settings
+
+langchain
+langchain-community
+langchain-qdrant
+qdrant-client
+pymupdf
+langsmith
+
+# Optional eval (enable if you want RAGAS)
+ragas
+pandas

@@ -1,0 +1,104 @@
+# ----------------------------
+# Python / Virtualenv
+# ----------------------------
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.cache/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# ----------------------------
+# IDE / Editor
+# ----------------------------
+.vscode/
+.idea/
+*.iml
+.cursor/
+*.code-workspace
+
+# ----------------------------
+# OS files
+# ----------------------------
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ----------------------------
+# Env / Secrets
+# ----------------------------
+.env
+.env.*
+!.env.example
+
+# ----------------------------
+# Logs
+# ----------------------------
+*.log
+logs/
+*.out
+
+# ----------------------------
+# FastAPI / Uvicorn
+# ----------------------------
+*.pid
+uvicorn.log
+
+# ----------------------------
+# Local data / RAG artifacts
+# (keep out of git)
+# ----------------------------
+data/
+storage/
+cache/
+tmp/
+temp/
+uploads/
+output/
+outputs/
+artifacts/
+
+# Vector DB local persistence (if you use local Qdrant volume)
+qdrant_storage/
+*.sqlite
+*.db
+
+# ----------------------------
+# Notebooks (optional)
+# ----------------------------
+.ipynb_checkpoints/
+
+# ----------------------------
+# Model / Tokenizer caches (optional)
+# ----------------------------
+.huggingface/
+hf_cache/
+model_cache/
+
+# ----------------------------
+# PDF / OCR intermediates (optional)
+# ----------------------------
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.tiff
+*.bmp
+ocr_output/
